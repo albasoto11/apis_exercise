@@ -1,0 +1,20 @@
+[
+    {
+        "username": "Mabel Perez",
+        "password": "123456",
+        "description": "Login con credenciales correctas",
+        "assertion": "!= null"
+    },
+    {
+        "username": "Mabel Perez",
+        "password": "badpassword",
+        "description": "Login con contraseña incorrecta",
+        "assertion": "contains { errorMessage: '#string' }"
+    },
+    {
+        "username": "ghost_json_user_999",
+        "password": "doesnotmatter",
+        "description": "Iniciar sesión con usuario inexsistente",
+        "assertion": "contains { errorMessage: '#string' }"
+    }
+]

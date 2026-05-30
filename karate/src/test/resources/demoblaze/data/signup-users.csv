@@ -1,0 +1,4 @@
+username,password,description,assertion
+new_user_text999,Pass123!,Nuevo usuario único: debería tener éxito,== '#string'
+existing_test_user_karate,123456,Usuario duplicado: debería devolver un mensaje de error,contains { errorMessage: 'This user already exist.' }
+"",Abc@9876,Registro con el nombre vacio deberia fallar,== '#string'
