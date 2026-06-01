@@ -30,7 +30,7 @@ public class ViewCart implements Task {
         actor.attemptsTo(
             WaitUntil.the(CartPage.PLACE_ORDER_BUTTON,
                           WebElementStateMatchers.isVisible())
-                     .forNoMoreThan(15).seconds()
+                     .forNoMoreThan(20).seconds()
         );
     }
 }

@@ -36,4 +36,5 @@ Feature: Purchase flow on Demoblaze
     Examples: Purchase data from testdata/purchase_data.json
       | product1          | product2         | name          | country | city  | card          | month | year |
       | Samsung galaxy s6 | Nokia lumia 1520 | Pamela Torres | Ecuador | Quito | 4111111111111 | 06    | 2027 |
-      | Samsung galaxy s6 | Nokia lumia 1520 | Carlos Lopez  | Peru    | Lima  | 5500005555555 | 08    | 2026 |
+      | Sony xperia z5 | Iphone 6 32gb | Carlos Lopez  | Peru    | Lima  | 5500005555555 | 08    | 2026 |
+      | Samsung galaxy s6    | Iphone 6 32gb        | Maria Gomez   | Argentina | Buenos     | 3714496353984   | 12    | 2025 |
