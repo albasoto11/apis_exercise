@@ -1,8 +1,3 @@
-=====================================================================
-README – Karate API Test Suite | demoblaze.com
-Author : Alba Soto
-Tool   : Karate DSL 1.4.1 + Gradle 7.6.6 + JUnit 5
-=====================================================================
 
 ## DESCRIPCIÓN
 
@@ -83,7 +78,7 @@ Para abrir el reporte HTML directamente (Windows):
 start build\karate-reports\karate-summary.html
 
 
-ESCENARIOS CUBIERTOS
+## SCENARIOS CUBIERTOS
 --------------------
 ### SIGNUP (signup.feature):
 - TC-SU-01: Crear un nuevo usuario exitosamente           [smoke, positive]
@@ -101,8 +96,8 @@ ESCENARIOS CUBIERTOS
 - TC-LG-06: Data-Driven con JSON (3 registros)            [datadriven, json]
 
 
-NOTAS IMPORTANTES
------------------
+### NOTAS IMPORTANTES
+
 * El archivo karate-config.js centraliza la baseUrl y headers; si la URL
   de la API cambia, SOLO se modifica en ese archivo.
 
@@ -118,4 +113,4 @@ NOTAS IMPORTANTES
 
 
 
-=====================================================================
+
